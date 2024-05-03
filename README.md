@@ -2,7 +2,7 @@
  The Egyptian-Party website, your portal to an enchanting world of ancient wonders and modern festivities!
 
  # Live Demo
- Experience the Tabs Project in action! Click the link below to access the live demo: [Live Demo](/https://ahmedbm98.github.io/Egyption-Party/)
+ Experience the Tabs Project in action! Click the link below to access the live demo: [Live Demo](https://ahmedbm98.github.io/Egyption-Party/)
 
  # Technologies
  HTML, CSS, Bootstrap, JavaScript, jQuary, Font Awesome
