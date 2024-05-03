@@ -65,16 +65,28 @@ function countDowmTime() {
   let countTime = calcTimeRemining();
   let container = `
             <div class="col">
-            <div class="p-5 border content-day">${countTime.days} Days left</div>
+            <div class="p-5 border content-day">${
+              countTime.days < 10 ? `0${countTime.days}` : countTime.days
+            } Days left</div>
           </div>
           <div class="col">
-            <div class="p-5 border content-hour">${countTime.hours} Hours</div>
+            <div class="p-5 border content-hour">${
+              countTime.hours < 10 ? `0${countTime.hours}` : countTime.hours
+            } Hours</div>
           </div>
           <div class="col">
-            <div class="p-5 border content-minute">${countTime.minutes} Min</div>
+            <div class="p-5 border content-minute">${
+              countTime.minutes < 10
+                ? `0${countTime.minutes}`
+                : countTime.minutes
+            } Min</div>
           </div>
           <div class="col">
-            <div class="p-5 border content-second">${countTime.seconds} Sec</div>
+            <div class="p-5 border content-second">${
+              countTime.seconds < 10
+                ? `0${countTime.seconds}`
+                : countTime.seconds
+            } Sec</div>
           </div>
   `;
   $(".count-down").html(container);
