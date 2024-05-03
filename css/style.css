@@ -1,0 +1,90 @@
+/* Start Global Rules */
+body {
+   font-family: "Roboto", sans-serif;
+}
+
+a {
+   display: inline-block;
+   text-decoration: none;
+   color: inherit;
+}
+
+/* End Global Rules */
+/* Start Header Section  */
+header {
+   background-image: linear-gradient(rgb(194, 92, 89, .7), rgb(170, 53, 49, .8)), url("../imgs/events-heavenly-header.jpg");
+   background-position: center;
+   background-size: cover;
+}
+
+header h1 {
+   font-size: 4rem;
+}
+
+/* End Header Section  */
+/* Start Sidebar Section */
+div.content-sidebar {
+   position: fixed;
+   left: 0;
+   top: 0;
+   bottom: 0;
+}
+
+div.content-sidebar i {
+   cursor: pointer;
+}
+
+div.content-sidebar li a {
+   transition: color ease-out .4s;
+}
+
+div.content-sidebar li:hover a {
+   color: #5E1714;
+}
+
+/* End Sidebar Section */
+/* Start Slider Section */
+div.color-slid {
+   background-color: #eee;
+}
+
+div.color-slid h3 {
+   background-color: #E68285;
+   padding: 1rem;
+   color: #f5f4f4;
+   cursor: pointer;
+}
+
+div.color-slid p {
+   padding: .5rem;
+}
+
+/* End Slider Section */
+/* Start join-time Section */
+section.join-time {
+   margin-block: 4rem;
+   padding-block: 7rem;
+   background-image: linear-gradient(rgb(194, 92, 89, .7), rgb(170, 53, 49, .8)), url("../imgs/invitation-2508607__340.jpg");
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+
+/* End join-time Section */
+/* Start Contact Section */
+section.contact {
+   margin-block: 7rem;
+
+}
+
+ul.social-icons li a {
+   transition: .4s ease;
+}
+
+ul.social-icons li a:hover {
+   background-color: #D62E33;
+   color: #eee;
+}
+
+/* End Contact Section */
